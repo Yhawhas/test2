@@ -22,6 +22,11 @@ public class MainController {
 		// Function
 		String result = NotAString.notAString(str);
 		out.println(result);
+		
+		//Git Test
+		String str1 = "hello";
+		String result1 = NotAString.notAString(str1);
+		out.println("Input: " +str1+ "\n Result: "+result1);
 
 	}
 }
